@@ -1,0 +1,32 @@
+.head-container {
+    padding-bottom: 10px;
+    .filter-item {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 3px 10px 0;
+        input {
+            height: 30.5px;
+            line-height: 30.5px;
+        }
+    }
+    .date-item {
+        vertical-align: middle;
+        margin: 0 3px 10px 0;
+        height: 30.5px !important;
+        width: 230px !important;
+    }
+}
+.el-dialog__footer,
+.el-dialog__body {
+    padding: 30px;
+}
+.el-dialog__body{
+    max-height: 50vh;
+    overflow-y: auto;
+}
+.el-form-item--mini{
+    .el-form-item__label{
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
